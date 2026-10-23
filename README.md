@@ -1,5 +1,7 @@
 # valta-hero
 
+Live site: [https://valta-hero.spaceedu-planet-earth.workers.dev](https://valta-hero.spaceedu-planet-earth.workers.dev)
+
 Standalone static prototype from `valta-hero(4).html`.
 
 The deployable site is in `site/`. Embedded images and fonts were extracted to `site/assets/`.
@@ -7,10 +9,10 @@ The deployable site is in `site/`. Embedded images and fonts were extracted to `
 ## Deploy
 
 ```sh
-npx wrangler pages deploy site --project-name valta-hero --branch main
+npx wrangler deploy
 ```
 
 ## Extracted assets
 
-- `site/assets/fonts/font-1.woff2`
-- `site/assets/images/image-1.webp`
+- [`assets/fonts/font-1.woff2`](https://valta-hero.spaceedu-planet-earth.workers.dev/assets/fonts/font-1.woff2)
+- [`assets/images/image-1.webp`](https://valta-hero.spaceedu-planet-earth.workers.dev/assets/images/image-1.webp)
