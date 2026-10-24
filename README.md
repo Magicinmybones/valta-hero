@@ -6,6 +6,8 @@ Standalone static prototype from `valta-hero(4).html`.
 
 The deployable site is in `site/`. Embedded images and fonts were extracted to `site/assets/`.
 
+The opening sequence runs once on page load, keeps the mountain background still, skips itself for reduced-motion users, and clears its animation styles after 2.25 seconds.
+
 ## Deploy
 
 ```sh
